@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+plotly
+scikit-learn
+opencv-python
+tensorflow
+keras
+tensorflow-hub
+ultralytics
+h5py
+ipython
