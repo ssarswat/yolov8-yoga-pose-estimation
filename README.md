@@ -33,6 +33,24 @@ The system combines YOLOv8-Pose for human keypoint detection with a custom Keras
 | YOLOv8-Pose variants evaluated | **6** |
 | Keras classifier architectures evaluated | **3** |
 
+## Quick Start
+
+Clone the repository and install the required dependencies:
+
+```bash
+git clone https://github.com/ssarswat/yolov8-yoga-pose-estimation.git
+cd yolov8-yoga-pose-estimation
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+jupyter notebook
+```
+Then open:
+
+`notebooks/Yoga Pose Estimation.ipynb`
+
+> For Linux/macOS, replace `.venv\Scripts\activate` with `source .venv/bin/activate`.
+
 ## Overview
 
 This project investigates human pose estimation for recognizing yoga practices from images, video, and real-time webcam streams.
