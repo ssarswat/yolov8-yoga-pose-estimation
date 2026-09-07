@@ -29,7 +29,7 @@ The system combines YOLOv8-Pose for human keypoint detection with a custom Keras
 |---|---:|
 | Yoga asana classes | **47** |
 | Human pose keypoints | **17** |
-| Best reported validation accuracy | **86%** |
+| Best recorded validation accuracy | **70.35%** |
 | YOLOv8-Pose variants evaluated | **6** |
 | Keras classifier architectures evaluated | **3** |
 
