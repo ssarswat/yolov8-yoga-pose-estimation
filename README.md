@@ -1,6 +1,34 @@
 # YOLOv8 Yoga Pose Estimation
 
-Human pose estimation and yoga asana classification using YOLOv8-Pose, transfer learning, keypoint extraction, and Keras.
+**End-to-end human pose estimation and 47-class yoga asana classification using YOLOv8-Pose, keypoint engineering and Keras.**
+
+This project investigates human pose estimation and yoga asana recognition from images, video, and real-time webcam streams.
+
+The system combines YOLOv8-Pose for human keypoint detection with a custom Keras-based classifier for yoga asana recognition.
+
+## Pipeline
+
+**Image / Video / Webcam**  
+↓  
+**YOLOv8-Pose**  
+↓  
+**17 Human Keypoints**  
+↓  
+**Keypoint Normalization & Feature Processing**  
+↓  
+**Keras Neural Network Classifier**  
+↓  
+**47 Yoga Asana Classes**
+
+## Results at a Glance
+
+| Component | Result |
+|---|---:|
+| Yoga asana classes | **47** |
+| Human pose keypoints | **17** |
+| Best reported validation accuracy | **86%** |
+| YOLOv8-Pose variants evaluated | **6** |
+| Keras classifier architectures evaluated | **3** |
 
 ## Overview
 
