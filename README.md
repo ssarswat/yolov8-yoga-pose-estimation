@@ -21,7 +21,7 @@ The system combines YOLOv8-Pose for human keypoint detection with a custom Keras
 **47 Yoga Asana Classes**
 
 ## Architecture Diagram
-![YOLOv8 Yoga Pose Estimation Architecture](architecture.png)
+![YOLOv8 Yoga Pose Estimation Architecture](Architecture.png)
 
 ## Results at a Glance
 
